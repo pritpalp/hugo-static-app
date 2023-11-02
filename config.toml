@@ -1,1 +1,9 @@
 theme = "beautifulhugo"
+permalinks:
+    /: /:year/:month/:slug/
+
+author: 
+  name: "Pritpal Panesar"
+  website: "https://example.com"
+  github = "pritpalp"
+  linkedin = "pritpal-panesar"

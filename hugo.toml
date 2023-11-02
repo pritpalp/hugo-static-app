@@ -1,6 +1,6 @@
 baseurl = "https://lemon-forest-06fec4103.4.azurestaticapps.net/"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "Pritpal's Ramblings"
 # Using theme as git submodule 
 theme = "beautifulhugo"
 # Or when using theme as hugo module
@@ -16,7 +16,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Ramdom thoughts of a Platform Engineer"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -49,8 +49,7 @@ pygmentsCodefencesGuessSyntax = true
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Pritpal Panesar"
-  website = "ppanesar.com"
-  email = "youremail@domain.com"
+  website = ""
   github = "pritpalp"
   linkedin = "pritpal-panesar"
 
@@ -61,30 +60,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [[menu.main]]
     name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
+    url = "about/"
     weight = 3
 
 [[menu.main]]
