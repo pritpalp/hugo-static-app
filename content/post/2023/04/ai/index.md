@@ -1,8 +1,13 @@
 ---
 title: "Can ChatGPT help me do my job?"
 date: 2023-04-28 09:00:00 +0100
-toc: true
-toc_sticky: true
+showToc: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+ShowCodeCopyButtons: true
 categories:
   - AI
 tags:
@@ -53,7 +58,6 @@ take a list of secrets and copy them from one keyvault to another renaming the s
 And the response:
 
 {{< gist pritpalp a65967055b57d09f2bacc4a54ba9e236 >}}
-<script src="https://gist.github.com/pritpalp/a65967055b57d09f2bacc4a54ba9e236.js"></script>
 
 So as we can see, we have an answer that uses both Azure CLI and Powershell. More than enough information for me to go and create the script I needed.
 
@@ -61,7 +65,7 @@ So as we can see, we have an answer that uses both Azure CLI and Powershell. Mor
 
 A few days later (this was late March 2023/early April 2023), I received an invitation to sign up for the preview of [Google Bard](https://bard.google.com/). Given that I'd just used ChatGPT, I thought I'd ask it the same question...
 
-The results were dissapointing. Bard responded that it didn't understand. A little playing about and it was clear that Bard wasn't anywhere near as useful for me. I wanted it to understand code, but it didn't appear that this early beta version was capable of that. A Google search was more informative.
+The results were disappointing. Bard responded that it didn't understand. A little playing about and it was clear that Bard wasn't anywhere near as useful for me. I wanted it to understand code, but it didn't appear that this early beta version was capable of that. A Google search was more informative.
 
 Now this was all about a month ago, giving it another try while writing this post it seems that Google have been working on it. It actually did now understand code! With the same prompt, this is the response from Bard:
 
